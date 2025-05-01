@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>App link</title>
+</head>
+<body>
+    <div class="container">
+        <h1>APP LINK</h1>
+        <label for="url">
+            Enter URL to shorten:
+        </label>
+        <input type="text" id="url" placeholder="https://www.example.com/long-url">
+        <br>
+        <label for="url">
+            Enter Thumbnail:
+        </label>
+        <input type="file">
+        <button onclick="shortenURL()">Shorten</button>
+        <div id="result"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
