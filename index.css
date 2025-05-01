@@ -18,13 +18,13 @@ body{
     border-radius: 10px;
 }
 .text-header{
-    font-family: cursive;
+    font-family: arial;
     color: green;
 }
 input{
     width: 70%;
     padding: 3%;
-    font-family: cursive;
+    font-family: arial;
     text-align: center;
     font-size: large;
     color: green;
@@ -33,7 +33,7 @@ input{
     border: 2px solid green;
 }
 input::placeholder{
-    font-family: cursive;
+    font-family: arial;
     text-align: center;
     font-size: large;
     color: green;
