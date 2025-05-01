@@ -30,14 +30,14 @@ input {
     padding: .9rem;
     margin: 1.2rem 0;
     border-radius: 10px;
-    font-family: cursive;
+    font-family: arial;
     text-align: center;
     color: green;
     background-color: rgb(238, 237, 237);
     border: 2px solid green;
 }
 input::placeholder{
-    font-family: cursive;
+    font-family: arial;
     text-align: center;
     font-size: large;
     color: green;
